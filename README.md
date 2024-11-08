@@ -2,7 +2,7 @@
 
 ## GitHub Actions
 
-[![Build and Tests](https://github.com/SofiaMartinslv/SofiaMartins-Turma02-E2E/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/SofiaMartinslv/SofiaMartins-Turma02-E2E/actions/workflows/node.js.yml)
+[![Build and Tests](https://github.com/SofiaMartinslv/SofiaMartins-Turma02-E2E/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/SofiaMartinslv/SofiaMartins-Turma02-E2E/actions/workflows/node.js.yml)
 
 ## Getting Started
 
