@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Build and Tests
 
 on:
   push:
@@ -10,14 +10,14 @@ on:
 
 jobs:
   build:
-    name: Run Integration Tests
+    name: Run E2E Tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4.1.1
-    - name: Use Node.js 21
-      uses: actions/setup-node@v4.0.0
+    - uses: actions/checkout@v4
+    - name: Use Node.js 22
+      uses: actions/setup-node@v4
       with:
-        node-version: 21
+        node-version: 22
         cache: 'npm'
-    - run: npm install      
-    - run: npm test
+    - run: npx playwright install
+    - run: npm run ci
